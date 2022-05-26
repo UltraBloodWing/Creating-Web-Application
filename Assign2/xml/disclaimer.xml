@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Disclaimer</title>
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Ong Syn Khai"/>
+	</head>
+	
+	<body>
+		<header>
+			<div id="topbanner">
+				<p class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+						  <!-- product dropdown -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div class="dropdown-content">
+						 <!-- aboutme dropdown -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>
+			
+		<!-- Disclaimer Page -->
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+		<div class="content">
+			<section id="dissec">
+				<h1 id="dishead">Disclaimer</h1>
+				
+				<div class="disp">
+					<p>&#8226; This website is created mainly for educational and non-commercial use only. It is a partial
+					fulfilment for completion of unit COS10011 - Creating Web Applications offered in
+					Swinburne University of Technology, Sarawak Campus for Semester 1, Year1.</p>
+					
+					<p>&#8226; The web-master and author(s) do not represent the business entity.</p>
+					
+					<p>&#8226; The content of the pages of this website might be out-dated or inaccurate, thus, the
+					author(s) and web-master does not take any responsibility for incorrect information
+					disseminate or cited from this website.</p>
+					
+					<p>&#8226; If you believe that information of any kind on this website is an infringement of copyright in
+					material in which you either own copyright or are authorized to exercise the rights of a
+					copyright owner, kindly contact the web-master <a class="maildis" href="mailto:ddaveosk34@gmail.com">ddaveosk34@gmail.com</a> for removal.
+					</p>
+				</div>	
+			</section>
+		</div>
+				
+		<!--Disclaimer Page End-->
+	
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script> <!-- Prefer put the script src above the ending of body -->
+	</body>
+</html>

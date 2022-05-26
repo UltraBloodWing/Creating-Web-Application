@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ibrahim Naah Ahmed</title>
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>		
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Ibrahim Naah Ahmed"/>
+	</head>
+	
+	<body>
+		<header>
+			<div id="topbanner">
+				<p class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+							<!-- product drop down -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div class="dropdown-content">
+						  <!-- about me dropdown -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>
+		
+		<!--About ME-->
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+		<div class="content">
+			<section>
+				<h2 class="myname">Enhancements</h2>
+				
+				<p>This page is created for the sole purpose of describing some of the important enhancements we have included in Asign1. 
+					Hence this page is not intergrated to or cant be accessed from other pages.</p> 
+				<table id="enhancement-table" class="table">
+					<tr>
+						<th>Scroll Sticky</th>
+						<td>This function sticks the navbar to top when scrolling keeping the navbar always accessible. This is implemented 
+						by using JavaScript and CSS. For implementation we use the header's offsetTop value (difference of Y=0 to the headers 
+						Y position) compared to the pageYOffset which returns the number of pixels which has been scrolled. If the scroll 
+						exceeds the header offset, the header offset (var sticky) is added to class list. If the scrolled pixels are lower 
+						the header offset, the header offset (var sticky) is removed from class list. And using CSS, its position is fixed 
+						to top: 0. So whenever the “sticky” variable is added to classlist the CSS would work. <br/>
+						Ref: <a class="link" target="blank" href="https://www.w3schools.com/howto/howto_js_sticky_header.asp">www.w3schools.com</a>
+						style.css line:773-785, enhancement.js Line:3-12 <br/>
+						This function is applied to all the pages. But for reference, in the below link it can be viewed from one of our more populated product page
+							<a class="link" target="blank" href="product3.html"> link</a>
+						</td>
+					</tr>
+					<tr>
+						<th>Back to top Button</th>
+						<td>This button bring the current page where a user has scrolled down back to the top scroll of that page by pressing the back-to-top-button. 
+							This is implemented by using JavaScript, CSS and every page of HTMLs. The button is created with the button form inside every HTML page with the enhancement.js src. 
+							The button is coloured in black and orange and styled in style.css, also with the icon which is from the link "script src= "url"" inside head of every HTML page. 
+							For implementation we use the pageYOffset to set a value/limit where the button will show up while scrolling. So when the page has been scrolled to the least limit, 
+							the button will show up and thus can be interacted ( scrollFunction() ). To make the scrolling smooth, we do ( smoothScrollBackToTop() ) function which it sets the 
+							limit and duration of the scrolling speed back to top.
+							<br/>Reference: <a class="link" target="blank" href="https://stackoverflow.com/questions/21660064/back-to-top-button-without-jquery">www.stackoverflow.com</a> 
+							, style.css line: 791-812, enhancement.js line:17-66 <br/> 
+							The button is applied to all the pages. But for reference, in this <a class="link" target="blank" href="index.html#copy-rights-banner"> link</a> 
+							it can be viewed from the scrolled down index page and the button can be seen at the bottom right. As an example.
+						</td>
+					</tr>
+				</table>
+			</section>
+		
+			
+		</div>
+		
+		<!--About ME END-->
+		
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script>
+	</body>
+</html>

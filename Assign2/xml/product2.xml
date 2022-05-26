@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Honeycomb</title>
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>		
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Ibrahim Naah Ahmed"/>
+	</head>
+	
+	<body>
+		<header>
+			<div id="topbanner">
+				<p id="marqueeTxt" class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+							<!-- product dropdown -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div class="dropdown-content">
+						  <!-- about me dropdown -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>
+		
+		<!-- Product Page -->
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>		
+		<div class="content">
+			<section>
+			
+				<div class="heading">
+					<h2>Honeycomb</h2>
+				</div>
+				<div id="product-discription">
+					<p>
+						<em>Do you know how important honey bees are for our survival?</em> Very important. In fact, there are numerous studies made 
+						in this area which concludes that the survival of <em>Humans depends on bees</em>. They are to be thanked for the pollination of 80% of the world’s 
+						plants including 90 different food crops. 
+					</p>
+					<p>
+						Therefore, we decided to honor our little friends who are truly important for our survival, by not making their hard work go to 
+						waste. In the extraction of honey from the honeycombs a lot of them get damaged. Hence, it cannot be put back in the tray. 
+						But rather we figured out a brilliant way for the honeycomb to be used and for us to be thankful for the bees.
+					</p>
+					<p>
+						With a lot of work done on R&amp;D, we came up with a wide variety of products made by fresh Honeycombs to the liking of various taste. 
+						Some of the favorites include chocolates, Magnums and Dried Honeycomb snacks. Also, we provide fresh honeycombs in honey jars.
+					</p>
+					<p>
+						Our company gives a lot of importance for <strong>quality control</strong>, and further research and development for <strong>honey farming in a sustainable
+						way</strong>. All of our natural resources are harvested in our in-house farms located in Sarawak, Malaysia. 
+					</p>
+				</div>
+				
+				<div class="item">
+					<div class="item-image">
+						<img src="img/products/honeycomb/Organic_Honeycomb.jpg" alt="Organic Honeycomb" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>	
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://berringa.com/product/berringa-pure-organic-honeycomb-2015-200-g/">www.berringa.com</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+				
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/Natural_Honeycomb.jpg" alt="Natural Honeycomb" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://berringa.com/product/berringa-australian-pure-natural-honeycomb-200-g/">www.berringa.com</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+				
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/Berringa_Honey.jpg" alt="Berringa Honey" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://australianorganicproducts.com.au/products/berringa-australian-pure-raw-unfiltered-honey-with-honeycomb-550g">www.australianorganicproducts.com.au</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+				
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/Beachworth.png" alt="Beachworth Honey" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://www.beechworthhoney.com.au/product/bee-raw-honey-honeycomb-240g-jar/">www.beachworthhoney.com.au</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+				
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/Chocolate.png" alt="Honeycomb Chocolate" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://manukahoneyofnz.com/products/manuka-honeycomb-milk-chocolate">www.manukahoneyofnz.com</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+				
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/Magnum.png" alt="Magnum Mini Honeycomb Crunch" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://www.mydin.com.my/products/detail/?pid=10130913004">www.mydin.com.my</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+			
+			
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/sweet_snack.png" alt="Honeycomb Snack" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://ginnis.co.uk/ginnis-nuts-snacks-and-sweets/shop/sweets/honeycomb">www.ginnis.co.uk</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+			
+				<div class="item" >
+					<div class="item-image">
+						<img src="img/products/honeycomb/Honeycomb_Sugar.jpg" alt="Honeycomb Sugar" />
+						<div class="item-button">
+							<p><button>Add to Cart</button></p>
+						</div>
+					</div>
+					<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://shopee.com.my/HONEYCOMB-SUGAR-GULA-SARANG-LEBAH%E7%9F%B3%E5%B3%B0%E7%B3%96250gm-i.15363235.873758360">www.shepee.com.my</a></span>
+					<div class="item-title">
+						<h5 class="itemname">Product Name</h5>
+						<p class="price">Price</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<!--Product Page End-->
+	
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script>
+	</body>
+</html>

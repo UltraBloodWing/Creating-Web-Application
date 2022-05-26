@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HoneyCo.</title>
+		<link rel="stylesheet" type="text/css" href="styles/layout.css" />
+		<link rel="stylesheet" type="text/css" href="styles/aboutme1.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Masrur Rahman Zahin"/>
+	</head>
+	
+	<body>
+		<header>
+				<div id="topbanner">
+					<marquee behaviour="scroll" direction="right"><span class="marquee">Pure 100% Malaysian Honey</span></marquee>
+				</div>
+				<div id="navigation-banner">
+					<a href="index.html">
+						<img id="logo" src="img/logo.png" alt="logo" />
+					</a>
+					<nav class="nav-bar">	
+						<a href="index.html">Home</a>
+						<div class="dropdown">
+							<button class="dropbtn">Products</button>
+							<div class="dropdown-content">
+							  <a href="product1.html">Product 1</a>
+							  <a href="product2.html">Product 2</a>
+							  <a href="product3.html">Product 3</a>
+							  <a href="product4.html">Product 4</a>
+							  <a href="product4.html">Product 5</a>
+							</div>
+						</div>
+						<a href="disclaimer.html">Disclaimer</a>
+						<div class="dropdown">
+							<button class="dropbtn">About Us </button>
+							<div class="dropdown-content">
+							  <a href="aboutme1.html">Masrur Rahman Zahin</a>
+							  <a href="aboutme2.html">Syn Khai Ong</a>
+							  <a href="aboutme3.html">Wei Ting Yong</a>
+							  <a href="aboutme4.html">Ibrahim Naah Ahmed</a>
+							</div>
+						</div>
+						<a href="enquiry.html">Contact Us</a>
+					</nav>
+				</div>	
+			</header>
+		
+		<div class="content">
+			<section>
+				<h2 class="myname">Masrur Rahman Zahin</h2>
+				<div class= "top-div">
+					<div class="table-div">
+						<span class="studentid"><span class="tobold">Student no&colon;</span> 101214608</span><br/>
+						<span class="course"><span class="tobold">Course&colon;</span>    Computer Science</span><br/>
+					</div>
+					<div class="pp-div">
+						<img class="profilepic" src="img/profile/masrur.jpg" alt="profile picture" />
+					</div>
+				</div>
+				<h2 class="pi-heading">My Contribution</h2>
+				<table class="table">
+					<tr>
+						<th>Home</td>
+						<td>Design&comma; coding &amp; styling of the homepage using HTML &amp; CSS </td>
+					</tr>
+					<tr>
+						<th>Aboutme</td>
+						<td>Coding &amp; styling of aboutme</td>
+					</tr>
+					<tr>
+						<th>Product</td>
+						<td>Design&comma; coding &amp; styling of <strong>a product page</strong> using HTML&comma; CSS</td>
+					</tr>
+				</table>
+			</section>
+			
+			<h2 class="pi-heading">Personal Information</h2>
+			
+			
+			<article class="article">
+				<h3 class="sub-heading">Resume</h3>
+					<p>
+						My name is <strong>Masrur Rahman Zahin</strong>, I am currently studying Bachelors of Computer Science in Swinburne University of Technology, Sarawak. 
+						I always had an interest in programming ever since I started doing IT in highschool
+						and watching a lot of sci-fi movies. Here are some interesting facts about me and where I come from.
+						<ul>
+							<li>My birhtday is on September 29, I am 20 years old</li>
+							<li>My name <strong>Masrur</strong> means Happy in arabic</li>
+							<li>I love taking photos and listening to music</li>
+							<li>My pet peeve is when people asks whether my eyes are real.</li>
+							<li>I was raised in Kuwait, but I am originally form <strong>Bangaldesh</strong>.</li>
+						</ul>
+					</p>
+			</article>
+			
+			<aside class="aside">
+				<h3 class="sub-heading">Demographic, hometown, hobbies and other personal info</h3>
+				<p>
+					<strong>Bangaldesh</strong> is a small country located in Southern Asia, it is bordered with India and Burma,
+					it is famous for its <em>Jute</em> and <em>Garment</em> products like dresses, t-shirts etc.
+					The official language of Bangladesh is <em>Bengali</em>. The country is 147,570 km<sup>2</sup> with a population of 
+					161 million thus making it one of the most densely poppulated country in the world.
+					The people of Bangladesh are really frinedly and hospitable, I would invite you to come to bangladesh
+					on your next vacation and enjoy the beatiful landscape and the culture of Bangaldesh.
+					
+				</p>
+			</aside>
+		</div>
+		
+		
+		<footer>	
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+				<div id="address">
+					HoneyCo.<br/>	
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href=mailto:"ibrahim.n.ahmed@gmail.com">support@honeycompany.com</a>
+				</div>
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+						<label>
+							<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+						</label>
+						<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook" hspace="20"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram" hspace="20"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter" hspace="20"/>
+					</div>
+				</div>
+			</div>
+<!-- Replace Mail		 -->
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &reg Honey company. All rights reserved. Created by <em>Group 2</em></span>
+				<a  class="mail" id="myemail" href="mailto:101232969@students.swinburne.edu.my">101232969@students.swinburne.edu.my</a>
+			</div>
+		</footer>
+	</body>
+	
+	<!-- W3SCHOOLS.COM -->
+	<!-- sticky nav bar -->
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var header = document.getElementById("navigation-banner");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			} else {
+				header.classList.remove("sticky");
+			}
+		}
+	</script>
+	
+	
+<html/>

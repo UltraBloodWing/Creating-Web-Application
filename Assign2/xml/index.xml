@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home Page</title>
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Ibrahim Naah Ahmed"/>
+	</head>
+	
+	<body>
+		<header id ="header">
+			<div id="topbanner">
+				<p class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+						   <!-- product dropdown -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div class="dropdown-content">
+						  <!-- about me drop down -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>	
+			
+		<!-- Home Page -->
+			<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+			<div class="content">
+					
+					<img id="hiveworker" src="img/home/hiveworker.jfif" alt="Hive Worker"/>
+					<a id="honeypic" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@anniespratt?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Annie Spratt"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Annie Spratt</span></a>
+				<div class="paras" id="wihoney">
+					<h3 >What is HoneyCo. ?</h3>
+					<p>
+						HoneyCo is a small company started by 4 friends as a university project 
+						and is located in the beautiful city of Kuching, Malaysia.  
+					</p>
+				</div>	
+					
+					<img id="goal" src="img/home/goal.jpg" alt="Our Goal"/>
+					<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@isaacmsmith?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Isaac Smith"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Isaac Smith</span></a>
+				<div class="paras">
+					<h3>Our Goal</h3>
+					<p>
+						Our goal is to provide the people of Kuching with the best quality and premium honey and raise awareness about bees.
+						</p>
+				</div>
+					
+					<img id="lab" src="img/home/lab.jpg" alt="Our lab"/>
+					<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@beenaturalles?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Bee Naturalles"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Bee Naturalles</span></a>
+				<div class="paras" id="prod">	
+					<h3>Our Product</h3>
+						<p>Our product is 100% pure and organic, we have over 30 bee hives as
+							of today and 2.4million happy bees working for us. Our Honey is tested in our certified 
+							laboratories daily to ensure the highest of quality so that our customers are always satisfied.
+						</p>
+				</div>	
+				
+				<div class="product-info">	
+					<h3>Few of Our Products</h3>
+					<h4><a href="product1.html">Manuka Honey</a></h4>
+						<p>
+							Our Manuka MGO (methylglyoxal) Honey is made from the most premium honey and it has deep rich dark color and it also 
+							has long been believe and used to help with a variety of different alignments such as healing wounds, soothing sore 
+							throats and with digestive problems. Its also contains natural enzymes and antioxidants. MGO is a globally recognised 
+							measure of antibacterial activity. Our company use this proven measurement methodology to grade and verify the actual 
+							MGO activity of each batch using independent testing at NATA accredited laboratories. Higher MGO means the honey is more healthy. 
+							(<a class="link" target="blank" href="https://www.goodness.com.au/berringa-australian-manuka-honey-mgo-900-250g/">MGO</a>)<br/><br/>
+							It is prefect as an additive for foods and drinks, or it can be eaten straight from the jar 
+							(we recommend between 1-3 spoons daily). Don't just take our word for it, try it and you will know why					
+							Manuka Honey is so popular. Our company have come out with 4 types of Manuka Honey with different MGO levels. 
+							Our Manuka Honey are only available in jars with 500g. 
+							(<a class="link" target="blank" href="https://simplyhoney.com.au/product/manuka-honey/">Simply Honey</a>)
+						</p>
+					<h4><a href="product1.html#pollen">Pollen</a></h4>
+						<p>
+							Bee pollen is a complete food and contains many elemants that products of animal origin do not possess. It is more rich in
+							proteins and amino acids than any animal source such as beef, eggs, or cheese. Half of its proteins are in form of amino acids
+							that are ready to be used directly by our body. One teaspoon of pollen takes one bee working eight hours a day for one month 
+							to gather. This is the reason why pollen is more expensive than honey.(<a class="link" target="blank" href="https://www.mercola.com/article/diet/bee_pollen.htm">Bee Pollen</a>)
+							<br/>Bee Pollen can :
+						</p>
+							<ul>
+								<li>relieve inflammation</li>
+								<li>work as an antioxidant</li>
+								<li>boost liver health</li>
+								<li>strengthen the immune system</li>
+								<li>work as a dietary supplemant</li>
+								<li>ease symptoms of menopause</li>
+								<li>reduce stress</li>
+								<li>speed up healing</li>
+							</ul>
+						
+					<h4><a href="product2.html">Honeycomb</a></h4>
+						<p>	
+							Our honeycomb products comes from all-natural honeycomb that’s cut straight from the hive.
+							Much like honey, honeycombs contain essential fatty acids, antioxidants and other nutrients that are beneficial for overall
+							health. Aside from being a good source of helpful nutrients, honeycombs are perfect snacks and can be added to foods and
+							drinks. Source: (<a class="link" target="blank" href="https://natonic.com.au/en/australian-by-nature-fresh-cut-honey-comb?gclid=EAIaIQobChMIleCU6sH56AIVmH0rCh14CgkuEAQYASABEgKkcPD_BwE">
+							www.natonic.com.au</a>)
+						</p>
+							<ul>
+								<li>Honeycombs are perfectly healthy and filling snack!</li>
+								<li>Helps in boosting energy.</li>
+								<li>Contains natural antioxidants and fatty acids.</li>
+								<li>Can serve as an alternative for a nutrient-rich healthy snack.</li>
+							</ul>
+					<h4><a href="product3.html">Creamy Honey</a></h4>
+						<p>
+							Our Creamy Honey comes from 100% pure organic honey that has been processed to control crystallization. Due to this formation of tiny crystals it gives the honey a creamy and smooth texture, perfect for a spread or used as an alternative to sugar in drinks.
+							Even though it is called creamed, our creamy honey contains no dairy products.
+							(<a class="link" target="blank" href="https://pastili.com/what-is-creamed-honey-why-it-is-so-delicious-and-loved-by-kids/">www.pastitli.com</a>)
+						</p>
+						<ul>
+							<li>Perfect for a spread or alternative to sugar.</li>
+							<li>Contains over 140 nutritional compunds, including vitamins, minerals, antioxidants and proteins.</li>
+							<li>Helps in the healing and repair of skin.</li>
+							<li>Natural cough supressor.</li>
+							<li>Helps ease digestive issues</li>
+						</ul>
+						
+					<h4><a href="product2.html">Honey Cocoa</a></h4>
+						<p>
+							Our Honey Cocoa products are unique honey chocolate bars consist of five nutrient-rich ingredients. Each flavour comes with its unique 
+							taste based on the amount of <strong>raw organic honey</strong>, <strong>unrefined coconut oil</strong>, <strong>cocoa powder</strong>, 
+							<strong>Himalayan pink salt</strong> and <strong>Ingredients of the Flavour</strong>. The ingredients are 100% guaranteed from highest 
+							quality direct-trade. The Honey Cocoa bars does not contain soy, eggs, dairy, gluten, and grains
+							(<a class="link" target="blank" href="http://www.honeymamas.com/">www.honeymamas.com</a>)
+						</p>
+						<ul>
+							<li>Healthy treats that helps maintain the immune system</li>
+							<li>Contains healthy fats from the unrefined coconut oil</li>
+							<li>Easy to digest</li>
+							<li>Elegant and Delicate chocolate-truffle-like Honey Cocoa bars</li>
+							<li>Pure rich and delicious taste that comforts consumer's taste buds</li>
+						</ul>
+				</div>
+			</div>
+			
+		<!--Home Page End-->
+	
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script>
+	</body>
+</html>

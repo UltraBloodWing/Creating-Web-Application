@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Manuka Honey &amp; Pollen</title>
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>		
+		<script src="script/script.js"></script>	
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Yong Wei Ting"/>
+	</head>
+
+	<body>
+		<header>
+			<div id="topbanner">
+				<p class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+						  <!-- product dropdown -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div class="dropdown-content">
+						  <!-- about me dropdown -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>
+			
+		<!-- Product Page -->
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>	
+		<div class="content">
+			
+			<div class="heading">
+				<h2>Manuka Honey &amp; Pollen</h2>
+			</div>
+			
+			<p id="product-description">
+			<strong>Manuka Honey</strong> is one of the world’s most exclusive honeys with its proven antibacterial properties, due to the naturally occurring active in gradient 
+			Methylglyoxal (MGO). The higher MGO level means the Manuka Honey is more healthful. Other than that, Manuka Honey is also traditionally been used 
+			for wound healing, soothing sore throats, preventing tooth decay and improving digestive issues. <br/>
+			Our company had produced the Manuka Honey in four types of MGO levels (30+ ,100+, 500+ &amp; 900+). We also maintain our warehouse to be located near the 
+			main growing regions for Manuka trees. We are very sure that our Manuka Honey products are come from all natural sources and it have highest quality. <br/><br/>
+			
+			<strong>Pollen</strong> is the mixture of flower pollen, nectar, enzymes, honey, wax and bee secretions. Bee pollen is good for our health as it contains vitamin, amino acid, 
+			nutrients, lipids and over 250 active substances. Bee pollen is used for primary food source for the hive and it is suits for people of different ages but it is not 
+			safe for pregnant women and should not be used during breastfeeding. Our bee pollen are only available in jars with 250g. 
+			</p>
+				
+			<section class="manuka">
+				<h3>Manuka Honey</h3>
+				
+					<div class="item">
+						<div class="item-image">
+							<img src="img/products/manuka/manuka30.jpg" alt="Manuka Honey 30+" />
+							<div class="item-button">
+								<p><button >Add to Cart</button></p>
+							</div>
+						</div>	
+						<span class="acknowledgement">Image source&#58; <a class="mail links" target="blank" href="https://simplyhoney.com.au/product/manuka-honey/">www.simpleyhoney.com</a></span>
+						<div class="item-title">
+							<h5 class="itemname">Product Name</h5>
+							<p class="price">Price</p>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="item-image">
+							<img src="img/products/manuka/manuka100.jpg" alt="Manuka Honey 100+" />
+							<div class="item-button">
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>	
+						<span class="acknowledgement">Image source&#58; <a class="mail links" target="blank" href="https://simplyhoney.com.au/product/manuka-honey-100/">www.simpleyhoney.com</a></span>
+						<div class="item-title">
+							<h5 class="itemname">Product Name</h5>
+							<p class="price">Price</p>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="item-image">
+							<img src="img/products/manuka/manuka500.jpg" alt="Manuka Honey 500+" />
+							<div class="item-button">
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>	
+						<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://simplyhoney.com.au/product/manuka-honey-500/">www.simpleyhoney.com</a></span>
+						<div class="item-title">
+							<h5 class="itemname">Product Name</h5>
+							<p class="price">Price</p>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="item-image">
+							<img src="img/products/manuka/manuka900.jpg" alt="Manuka Honey 900+" />
+							<div class="item-button">
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>	
+						<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://simplyhoney.com.au/product/manuka-honey-900/">www.simpleyhoney.com</a></span>
+						<div class="item-title">
+							<h5 class="itemname">Product Name</h5>
+							<p class="price">Price</p>
+						</div>
+					</div>			
+			</section>	
+					
+			<section>	
+					<hr class="seperator"/>
+					<h3><a id="pollen">Pollen</a></h3>
+					
+					
+					<div class="item">
+						<div class="item-image">
+							<img src="img/products/manuka/pollen.jpg" alt="Pollen" />
+							<div class="item-button">
+								<p><button>Add to Cart</button></p>
+							</div>
+						</div>	
+						<span class="acknowledgement">Image source: <a class="mail links" target="blank" href="https://simplyhoney.com.au/product/pollen">www.simpleyhoney.com</a></span>
+						<div class="item-title">
+							<h5 class="itemname">Product Name</h5>
+							<p class="price">Price</p>
+						</div>
+					</div>
+					
+			</section>
+		</div>
+		
+		<!--Product Page End-->
+	
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script>
+	</body>
+</html>

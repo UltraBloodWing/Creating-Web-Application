@@ -1,0 +1,93 @@
+.myname{
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+	/* color:#404040; */
+	color: #fbc900;
+}
+
+.top-div{
+	float: up;
+	line-height: 20px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.pi-heading{
+	padding-top: 10px;
+}
+
+.table-div{
+	min-width: 20%;
+	float: left;
+	line-height: 35	px;
+}
+
+.profilepic{
+	width: 300px;
+	border-style: groove;
+	padding: 10px;
+	display: block;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.course, .studentid{
+	color: RGB(191, 153, 0);	
+}
+
+.tobold{
+	font-weight: bold;
+	color: #404040;
+}
+
+
+.table{
+	width: 90%;
+	float: center;
+	padding: 3% 5%;
+	border-collapse: collapse;
+	margin: 30px auto
+}
+
+
+.table td, .table th{ 
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px 10px;
+}
+
+.table th:{
+	font-weight: bold;
+}
+
+.table tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+
+
+#myemail{
+	margin-left: 11.5%;
+}
+
+.pi-heading{
+	color: #fbc900;
+}
+
+.sub-heading {
+	font-size: 1.1rem;
+}
+
+.article{
+	float: left;
+}
+.aside{
+	background-color: rgb(255, 209, 26, 0.15);
+	float: right;
+	padding: 0 10px;
+}
+
+.article, .aside{
+	width: 48%;
+	margin-bottom: 20px;
+}

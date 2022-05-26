@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Honey Cocoa</title> 
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Ong Syn Khai"/>
+	</head>
+	
+	<body>
+		<header>
+			<div id="topbanner">
+				<p class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+						  <!-- product drop down -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div id="aboutmeDropDown" class="dropdown-content">
+						 <!-- about me drop down -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>
+		
+		<!-- Product Page -->
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>	
+		<div class="content">
+			<div class="heading">
+				<h2>Honey Cocoa</h2>
+			</div>
+			<p id="product-description">
+				These are the finest flavour of our signature delicate Honey Cocoa bars. Ranged from raw to organic rich distintive taste as made. Grab some Honey Cocoa bars so you can experience each of its healthy, lively, flavourful bite from your desired choice!    
+			</p>
+		
+			<div class="item">
+				<div class="item-image">
+					<img src="img/products/honeycocoa/Cocononut.jpg" alt="Honey Cocoa CocoNonut" />
+					<div class="item-button">
+						<p><button>Add to Cart</button></p>
+					</div>
+				</div>	
+				<span class="acknowledgement">Image source&#58; <a target="blank" class="mail links" href="https://honey-mamas.myshopify.com/products/cocononut-nectar-fudge">www.honey-mamas.myshopify.com</a></span>
+				<div class="item-title">
+					<h5 class="itemname">Product Name</h5>
+					<p class="price">Price</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-image">
+					<img src="img/products/honeycocoa/Dutch.jpg" alt="Honey Cocoa Dutch" />
+					<div class="item-button">
+						<p><button>Add to Cart</button></p>
+					</div>
+				</div>	
+				<span class="acknowledgement">Image source&#58; <a target="blank" class="mail links" href="https://honey-mamas.myshopify.com/products/dutch-nectar-fudge-bar">www.honey-mamas.myshopify.com</a></span>
+				<div class="item-title">
+					<h5 class="itemname">Product Name</h5>
+					<p class="price">Price</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-image">
+					<img src="img/products/honeycocoa/GingerCardamom.jpg" alt="Honey Cocoa Ginger" />
+					<div class="item-button">
+						<p><button>Add to Cart</button></p>
+					</div>
+				</div>	
+				<span class="acknowledgement">Image source&#58; <a target="blank" class="mail links" href="https://honey-mamas.myshopify.com/products/ginger-cardamom-bar">www.honey-mamas.myshopify.com</a></span>
+				<div class="item-title">
+					<h5 class="itemname">Product Name</h5>
+					<p class="price">Price</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-image">
+					<img src="img/products/honeycocoa/MayanSpice.jpg" alt="Honey Cocoa Mayan" />
+					<div class="item-button">
+						<p><button>Add to Cart</button></p>
+					</div>
+				</div>	
+				<span class="acknowledgement">Image source&#58; <a target="blank" class="mail links" href="https://honey-mamas.myshopify.com/products/spicy-nectar-fudge-bar">www.honey-mamas.myshopify.com</a></span>
+				<div class="item-title">
+					<h5 class="itemname">Product Name</h5>
+					<p class="price">Price</p>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-image">
+					<img src="img/products/honeycocoa/NibsnCoffee.jpg" alt="Honey Cocoa Nibs" />
+					<div class="item-button">
+						<p><button>Add to Cart</button></p>
+					</div>
+				</div>	
+				<span class="acknowledgement">Image source&#58; <a target="blank" class="mail links" href="https://honey-mamas.myshopify.com/products/nibs-coffee-cacao-nectar-bar">www.honey-mamas.myshopify.com</a></span>
+				<div class="item-title">
+					<h5 class="itemname">Product Name</h5>
+					<p class="price">Price</p>
+				</div>
+			</div>
+				
+			<div class="item">
+				<div class="item-image">
+					<img src="img/products/honeycocoa/OregonPeppermint.jpg" alt="Honey Cocoa Oregon" />
+					<div class="item-button">
+						<p><button>Add to Cart</button></p>
+					</div>
+				</div>	
+				<span class="acknowledgement">Image source&#58; <a target="blank" class="mail links" href="https://honey-mamas.myshopify.com/products/mint-nectar-fudge">www.honey-mamas.myshopify.com</a></span>
+				<div class="item-title">
+					<h5 class="itemname">Product Name</h5>
+					<p class="price">Price</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--Product Page End-->
+	
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script>
+	</body>
+</html>

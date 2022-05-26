@@ -1,0 +1,256 @@
+/*
+filename: [StyleSheet for HomePage]
+author: [Ibrahim Naah Ahmed]
+created: [7-April-2020]
+last modified: [19-April-2020]
+description: [Style for main layout]
+*/
+
+
+* {font-family: Arial, sans-sarif, verdana, calibri;}
+* {text-decoration: none;}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	color: #333333;
+}
+
+
+/* ---------------HEADER-STYLE--------------- */
+header{
+	float: top;
+}
+
+#topbanner{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #404040;
+	text-transform: uppercase;
+	color: #ffd11a;
+	font-size: 0.8rem;	
+}
+
+#navigation-banner{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	background-color: #fbc900;
+}
+
+#navigation-banner a{
+	height: 13%;
+	float: left;
+}
+
+#logo{
+	padding-left: 2.5em;
+	width: auto;
+	vertical-align: middle;
+}
+
+.nav-bar{
+	float: right;
+}
+
+.nav-bar a{
+	text-align: right;
+	vertical-align: middle;
+	width: auto;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 3.5em;
+	color: #333333;
+	font-family: arial, calabri;
+}
+
+.nav-bar a:hover, .dropdown:hover .dropbtn{
+	text-decoration: underline;
+	text-decoration-color: #404040;
+}
+
+.dropdown {	
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: inherit; 
+	text-transform: uppercase;
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	border: none;
+	outline: none;
+	margin-right: 3.5em;
+}
+
+.dropdown-content {
+	font-size: 0.8rem;
+	display: none;
+	position: absolute;
+	background-color: #404040;
+	width: 190px;
+	
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #ffd11a;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	padding-left: 10px;
+	margin: 3px 3px;
+	padding-right: 10px;
+	float: none;
+	color: white;
+	display: block;
+	text-align: left;
+	width: 86.5%;
+	line-height: 2.2rem;	
+}
+
+.dropdown-content a:hover {
+	background-color: #b99400;
+	text-decoration: none; 
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+
+/* ---------------------FOOTER-STYLE ---------------------- */
+footer {
+	padding-top: 1%;
+	height: 190px;
+	clear: both;
+	background-color: #404040;
+	color: white;
+	font-size: 0.8rem;
+	color: #f2f2f2;	
+}
+
+#footer-upper-banner{
+	padding: 0% 3%;
+	line-height: 160px;
+	float: top;
+}
+
+#logo-footer{
+	width: 7%;
+	float: left;
+}
+
+#address{
+	margin-top: 20px;
+	float: left;
+	width: 40%;
+	line-height: 2;
+}
+
+.mail{
+	color: #f2f2f2;
+	text-decoration: underline;
+	text-decoration-color: #ffd11a;
+}
+.mail:hover{
+	color: #ffd11a;
+}
+
+#subscribe{
+	font-size: 1rem;
+	margin-top: 19px;
+	width: 35%;
+	float: right;
+	line-height: 2;
+}
+
+#newsletter{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#subscribe_button, .button{
+	background: transparent;
+	
+	border-radius:25px;
+	border-style:solid;
+	border-color:#ffd11a;
+	border-width:2px;
+	
+	padding:12px 23px;
+	color:#f2f2f2;
+	font-size: 14px;
+	
+	margin-top:4px;
+}
+
+#subscribe_button:hover {
+	color:#404040;
+	background:#ffd11a;
+}
+
+#input {
+	background: #404040;
+	color: #f2f2f2;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ffd11a;
+	
+	float: left;
+	margin-top: 29px;
+}
+
+#input::placeholder{
+	color: #f2f2f2;
+}
+
+#social-icons{	
+	line-height: 20px;
+	width: 100%;
+	margin-top: 4.5%;
+	float: bottom;
+}	
+
+.social-icons{
+	margin-right: 2.5%;
+	vertical-align: middle;
+	width:30px;
+	height:30px;
+}
+
+.social-icons:hover{
+	transform: scale(1.4);
+}
+
+#copy-rights-banner{
+	clear:both;
+	width: auto;
+	line-height: 30px;
+	padding: 0% 3%;
+	background-color: #262626;
+}
+
+#copy-rights {
+	text-align: left;
+	vertical-align: middle;
+	color: #a6a6a6;
+	width: 47%;
+}
+
+
+
+/* ---------------- GENERAL RULES FOR MAIN CONTENT ---------------------- */
+#body{
+	background-color: #f2f2f2;
+}
+
+.content{
+	padding: 1em 2.5em 2.5em 2.5em;
+	text-align: justify;
+}
+

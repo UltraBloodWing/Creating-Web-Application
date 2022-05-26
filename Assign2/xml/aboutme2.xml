@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Syn Khai Ong</title>
+		<script src="https://kit.fontawesome.com/1eacaefc78.js"></script>
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta charset="utf-8"/>
+		<meta name="description" content="Basic HTML elements"/>
+		<meta name="keywords" content="HTML5"/>
+		<meta name="author" content="Ong Syn Khai"/>
+	</head>
+	
+	<body>
+		<header>
+			<div id="topbanner">
+				<p class="MarqueeTxt">Pure 100% Malaysian Honey</p>
+			</div>
+			<div id="navigation-banner">
+				<a href="index.html">
+					<img id="logo" src="img/logo.png" alt="logo" />
+				</a>
+				<nav class="nav-bar">	
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Products</button>
+						<div class="dropdown-content">
+						  <!-- product dropdown -->
+						</div>
+					</div>
+					<a href="disclaimer.html">Disclaimer</a>
+					<div class="dropdown">
+						<button class="dropbtn">About Us </button>
+						<div class="dropdown-content">
+						  <!-- about me drop down -->
+						</div>
+					</div>
+					<a href="enquiry.html">Contact Us</a>
+				</nav>
+			</div>	
+		</header>
+		
+		<!--About ME-->
+		<button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+		<div class="content">
+			<section>
+				<h2 class="myname">Ong Syn Khai</h2>
+				<div class= "top-div">
+					<div class="table-div">
+						<span class="studentid"><span class="tobold">Student no&#58;</span> 101220391</span><br/>
+						<span class="course"><span class="tobold">Course&#58;</span>    Computer Science</span><br/>
+					</div>
+					<div class="pp-div">
+						<img class="profilepic" src="img/profile/daveong.jpg" alt="profile picture" />
+					</div>
+				</div>
+				<h2 class="sub-heading">My Contribution</h2>
+				<table class="table">
+					<tr>
+						<th>Disclaimer</th>
+						<td>Design&#44; coding &amp; styling of the <strong>disclaimer page</strong> using HTML &amp; CSS </td>
+					</tr>
+					<tr>
+						<th>Aboutme</th>
+						<td>Coding &amp; styling of <strong>aboutme2</strong> using HTML &amp; CSS</td>
+					</tr>
+					<tr>
+						<th>Product</th>
+						<td>Design&#44; coding &amp; styling of <strong>product page 4</strong> using HTML&#44; CSS</td>
+					</tr>
+					<tr>
+						<th>Documentation</th>
+						<td>Completed the Group reflections of the report</td>
+					</tr>
+				</table>
+			</section>
+			
+			<h2 class="sub-heading">Personal Information</h2>
+			
+			
+			<article class="article">
+				<h3 class="sub-sub-heading">Resume</h3>
+					<p>
+						My name is <strong>Ong Syn Khai</strong>. I am currently studying in year 1 of Bachelors of Computer Science in Swinburne University of Technology, Sarawak. 
+						I am interested in computers because of video games and digital stuffs since I was young. Dreamed to be a video game developer or gaming content creator. 
+						Here are some interesting facts about me:  
+					</p>
+					<ul>
+						<li>I was born on 21st October 2000.</li>
+						<li>Most of my friends called me &quot;Dave&quot;.</li>
+						<li>Born in <strong>Kuching</strong>&#44; <strong>Sarawak</strong>&#44; but my life with my family were in <strong>Kota Kinabalu</strong>&#44; <strong>Sabah</strong>.</li>
+						<li>Computer/Video gamer&#44; I love video gaming!</li>
+						<li>Besides Video Gaming&#44; I also like to listen to various music, watch videos and movies&#44; know humorous and psychology facts/stuffs.</li>
+						<li>I went back to Kuching to study at Swinburne Sarawak because some of my friends also studies there.</li>
+					</ul>
+			</article>
+			
+			<aside class="aside">
+				<h3 class="sub-sub-heading">Demographic</h3>
+				<p>
+					<strong>Kuching</strong> is the capital and the most populous city in Malaysia's largest state&#44; <strong>Sarawak</strong>. The name Kuching was derived from the Malay word for &quot;cat&quot;.
+					Kuching has an average population of 325,132 consists of Malays&#44; Chinese&#44; Iban&#44; Bidayuh and others. Kuching is known for its local foods such as laksa&#44; kolo mee&#44; 
+					Sarawak Layer Cake "Kek lapis" and more. Kuching also have a lot of attractive locations to visit.
+				</p>
+				<p>
+					<strong>Sabah</strong> is a state of Malaysia above Sarawak. Its is nicknamed "Land below the wind". <strong>Kota Kinabalu</strong> is the capital of Sabah. Sabah is famously known for The Mount Kinabalu
+					where many travelers ought to climb or just visit. Sabah also have many islands and natural tropical rainforests for people who desires nature.    
+				</p>
+			</aside>
+		</div>
+		
+		<!--About ME END-->
+		
+		<footer>
+			<div id="footer-upper-banner">
+				<div id="logo-footer">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+			
+				<div id="address">
+					HoneyCo.<br/>
+					Swinburne University of Technology, 93350 Kuching, Sarawak, Malaysia<br/>
+					+60 111-4090019<br/>
+					<a class="mail" href="mailto:noaddress">support@honeyco.com</a>
+					</div>
+				
+				<div id="subscribe">
+					<span id="newsletter">GET A NEWSLETTER</span>
+					<!-- action set to homepage, since its not a fully functional website -->
+					<form method="post" action="index.html"> 
+							<label>
+								<input id="input" type="email" name="Your E-mail" placeholder="Your E-Mail" maxlength="40" size="20"/>
+							</label>
+							<input class="button" id="subscribe_button" type="submit" value="SUBSCRIBE"/>
+					</form>
+					<div id="social-icons">
+						<img class="social-icons" src="img/social-media/facebook.png" alt="facebook"/>
+						<img class="social-icons" src="img/social-media/instagram.png" alt="instagram"/>
+						<img class="social-icons" src="img/social-media/twitter.png" alt="twitter"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copy-rights-banner">
+				<span id="copy-rights"> &#174; Honey company. All rights reserved. Created by <em>Group 2</em></span>
+			</div>
+		</footer>
+		<script src="script/enhancements.js"></script>
+	</body>
+</html>
